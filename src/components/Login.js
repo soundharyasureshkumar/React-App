@@ -336,7 +336,7 @@ class Login extends Component {
                     <div className="col-lg-6 col-md-6 log-det">
                       <div className="small-logo">
                         <img src="https://cdn.glitch.com/a04a26d3-92af-4a88-9d49-8fcc2c5344a5%2FPropvrlogo.png?1553319211152" alt="" />
-                        <button onClick={this.signOut}>check</button>
+                        
                       </div>
                       <div id="loginBlock" style={{ display: "block" }}>
                         <div className="text-box-cont">
