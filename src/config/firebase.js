@@ -1,12 +1,14 @@
 import firebase from 'firebase';
 var firebaseConfig = {
-    apiKey: "AIzaSyDdkRG1b0pyk6pRufX60vrGcejpKAeqjcg",
-    authDomain: "propvr.firebaseapp.com",
-    databaseURL: "https://realvr-eb62c.firebaseio.com",
-    projectId: "realvr-eb62c",
-    storageBucket: "realvr-eb62c.appspot.com",
-    messagingSenderId: "172924419383",
-    appId: "1:172924419383:web:36e814bf67356da9"
-  };
+  apiKey: "AIzaSyBFxRtxrD3jM6WfLSVksicZGadFgUQ9tVM",
+  authDomain: "socio-8c7cf.firebaseapp.com",
+  databaseURL: "https://socio-8c7cf.firebaseio.com",
+  projectId: "socio-8c7cf",
+  storageBucket: "socio-8c7cf.appspot.com",
+  messagingSenderId: "971172228538",
+  appId: "1:971172228538:web:0729d10ad3b47df8748183"
+};
+
+
 const fire=  firebase.initializeApp(firebaseConfig);
 export default fire;
